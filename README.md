@@ -8,7 +8,7 @@ The key detailed technical contribution of UAE is **Differentiable Progressive S
 
 <p align="center">
     <br>
-    <img src="./dps.png" width="600"/>
+    <img src="./dps.png" width="850"/>
 <p>
 
 ### Main Directories
