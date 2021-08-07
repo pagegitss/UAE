@@ -21,7 +21,7 @@ Please run `python train_uae.py --help` to see a list of hyperparameters.
 
 `--run-uaeq`: whether to run the query-driven UAE-Q.
 
-`--bs`: The batch size of data. The batch size of queries will be adjusted according to `--bs`. The principle is to ensure that the model goes through all the data and queries per epoch. Thus, we do not to specify the batch size of queries when running UAE.
+`--bs`: The batch size of data. The batch size of queries will be adjusted according to `--bs`. The principle is to ensure that the model goes through all the data and queries per epoch. Thus, we do not need to specify the batch size of queries when running UAE.
 
 `--q-bs`: The batch size of queries. `--q-bs` only works for running UAE-Q.
 
