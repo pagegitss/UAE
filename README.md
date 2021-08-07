@@ -21,7 +21,7 @@ The key detailed technical contribution of UAE is **Differentiable Progressive S
 ### Notes
 * The work was funded by SingTel and the IP is owned jointly by both NTU and SingTel.
 
-* We have release the single table version of UAE/UAE-Q in [`./UAE_single_table`](./UAE_single_table). We are still pending the clearance from SingTel before we can release the join version of UAE/UAE-Q and the modified PostgreSQL (will be soon) to the public. 
+* We have released the single table version of UAE/UAE-Q in [`./UAE_single_table`](./UAE_single_table). We are still pending the clearance from SingTel before we can release the join version of UAE/UAE-Q and the modified PostgreSQL (will be soon) to the public. 
 
 * Note that the core code for implementing UAE (i.e., DPS) is similar in single-table and join versions of UAE.
 
