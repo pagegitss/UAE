@@ -402,12 +402,12 @@ def RunQueryEpoch(split,
         batch_wildcard = wildcard_indicator[idx]
         actual_cards = card_list[idx]
 
-        est_sels = estimator.BatchQuery(n_cols, batch_wildcard, valid_is)
+        est_cards = estimator.BatchQuery(n_cols, batch_wildcard, valid_is)
 
-        if torch.isnan(est_sels).any():
+        if torch.isnan(est_cards).any():
             continue
 
-        loss = QError(actual_cards, est_sels * cardinality).mean()
+        loss = QError(actual_cards, est_cards * cardinality).mean()
 
         losses.append(loss.item())
         opt.zero_grad()
