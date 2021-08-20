@@ -407,7 +407,7 @@ def RunQueryEpoch(split,
         if torch.isnan(est_cards).any():
             continue
 
-        loss = QError(actual_cards, est_cards * cardinality).mean()
+        loss = QError(actual_cards, est_cards).mean()
 
         losses.append(loss.item())
         opt.zero_grad()
